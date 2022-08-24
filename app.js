@@ -12,9 +12,6 @@ encodedParams.set("client_secret", process.env.CLIENT_SECRET);
 encodedParams.set("grant_type", "client_credentials");
 encodedParams.set("scope", "emsi_open");
 
-// const accessToken =
-//   "";
-
 //Fetch Token
 
 const tokenOptions = {
@@ -50,6 +47,7 @@ const options = {
 async function fetchSkills() {
   try {
     const response = await fetch(
+      //********if you want to fetch every single skill just remove the q=asdadasdad from the url*************
       `https://emsiservices.com/skills/versions/latest/skills?q=javascript&fields=id,name,category,type,subcategory&typeIds=ST1,ST2`,
       options
     );
@@ -60,7 +58,7 @@ async function fetchSkills() {
   }
 }
 
-fetchSkills();
+// fetchSkills();
 
 //Extract skills from paragraph
 
@@ -71,6 +69,7 @@ const paraOptions = {
     // "Content-Type": "application/json",
   },
   qs: { language: "fr" },
+  //***************have to pass the para graph inside body to get the skills from paragraph**************************
   body: '{"text":"I love react and javascript"}',
   json: true,
 };
@@ -82,10 +81,38 @@ async function fetchSkillFromPara() {
       paraOptions
     );
     const data = await response.json();
-    // console.log(data.data.skills.map((s) => s.skill.name));
+    console.log(data.data.skills.map((s) => s.skill.name));
   } catch (err) {
     console.log(err);
   }
 }
 
 // fetchSkillFromPara();
+
+// Extract related skills
+
+const relatedOptions = {
+  method: "POST",
+  headers: {
+    Authorization: `Bearer ${accessToken}`,
+    "Content-Type": "application/json",
+  },
+  //******************have to pass the ids inside body to fetch related skills***********************
+  body: '{"ids":["KS1200364C9C1LK3V5Q1"]}',
+  json: true,
+};
+
+async function fetchRelatedSkills() {
+  try {
+    const response = await fetch(
+      `https://emsiservices.com/skills/versions/latest/related`,
+      relatedOptions
+    );
+    const data = await response.json();
+    console.log(data.data);
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+// fetchRelatedSkills();
