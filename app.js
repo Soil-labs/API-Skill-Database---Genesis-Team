@@ -1,20 +1,56 @@
+import { URLSearchParams } from "url";
+import dotenv from "dotenv";
 import fetch from "node-fetch";
+dotenv.config();
+
+const encodedParams = new URLSearchParams();
+
+//Access Token
+
+encodedParams.set("client_id", process.env.CLIENT_ID);
+encodedParams.set("client_secret", process.env.CLIENT_SECRET);
+encodedParams.set("grant_type", "client_credentials");
+encodedParams.set("scope", "emsi_open");
+
+// const accessToken =
+//   "";
+
+//Fetch Token
+
+const tokenOptions = {
+  method: "POST",
+  headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  body: encodedParams,
+};
+
+const fetchToken = async () => {
+  try {
+    const response = await fetch(
+      `https://auth.emsicloud.com/connect/token`,
+      tokenOptions
+    );
+    const data = await response.json();
+    return data?.access_token;
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+const accessToken = await fetchToken();
+
+//Fetching Skills, categories, and subcategories
 
 const options = {
   method: "GET",
-  qs: { fields: "id,name,category" },
   headers: {
-    Authorization:
-      "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjNDNjZCRjIzMjBGNkY4RDQ2QzJERDhCMjI0MEVGMTFENTZEQkY3MUYiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJQR2FfSXlEMi1OUnNMZGl5SkE3eEhWYmI5eDgifQ.eyJuYmYiOjE2NjExMDcxMDcsImV4cCI6MTY2MTExMDcwNywiaXNzIjoiaHR0cHM6Ly9hdXRoLmVtc2ljbG91ZC5jb20iLCJhdWQiOlsiZW1zaV9vcGVuIiwiaHR0cHM6Ly9hdXRoLmVtc2ljbG91ZC5jb20vcmVzb3VyY2VzIl0sImNsaWVudF9pZCI6IjFvbXlueGszenlhNWl0OWQiLCJlbWFpbCI6Im0uc2FyYXR6aWRpc0BnbWFpbC5jb20iLCJjb21wYW55IjoiRWRlbiDwn4yzIiwibmFtZSI6Ik1pbHRpYWRpcyBTYXJhdHppZGlzIiwiaWF0IjoxNjYxMTA3MTA3LCJzY29wZSI6WyJlbXNpX29wZW4iXX0.jIEGRWuO5aS3u9om4WVZJGNh4DHnB9IlMj9rcquagEq_bAb04YCHrSJTyceCnl5aJZ-aFZA6w5JE_NW-6t8Ci0ij3GR5_SDt_2MsCuISMlhxfctQu0nI6PHn4RY5O5FGGDx_kD0erOggi_K4xQeOlexqii8aIQnb-39Z1GhkzrzM_k819o6luozZuKfpIaL7b9awcY22qfz8FcUiedeUJ5IckjRXXr8KvfqJjeD5MI-xCoEQCdAyYw_fEVixGDpBFedMAL7nbzrqwu6MWCCH_rXMeFzpVeduLa0RlQzIMKZpQRDWEctf4StY5lzDkrBjx6vI7buGH0CsfV_L3tjf3w",
+    Authorization: `Bearer ${accessToken}`,
   },
 };
-
-let data = [];
 
 async function fetchSkills() {
   try {
     const response = await fetch(
-      `https://emsiservices.com/skills/versions/latest/skills?q=javascript&fields=id,name,category,subcategory`,
+      `https://emsiservices.com/skills/versions/latest/skills?q=javascript&fields=id,name,category,type,subcategory&typeIds=ST1,ST2`,
       options
     );
     const data = await response.json();
@@ -25,3 +61,31 @@ async function fetchSkills() {
 }
 
 fetchSkills();
+
+//Extract skills from paragraph
+
+const paraOptions = {
+  method: "POST",
+  headers: {
+    Authorization: `Bearer ${accessToken}`,
+    // "Content-Type": "application/json",
+  },
+  qs: { language: "fr" },
+  body: '{"text":"I love react and javascript"}',
+  json: true,
+};
+
+async function fetchSkillFromPara() {
+  try {
+    const response = await fetch(
+      `https://emsiservices.com/skills/versions/latest/extract/trace`,
+      paraOptions
+    );
+    const data = await response.json();
+    // console.log(data.data.skills.map((s) => s.skill.name));
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+// fetchSkillFromPara();
