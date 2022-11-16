@@ -179,7 +179,7 @@ export async function fetchRelatedSkills(skill_id_lightcast) {
     json: true,
   };
 
-  console.log("relatedOptions = " , relatedOptions)
+  // console.log("relatedOptions = " , relatedOptions)
 
 
   try {

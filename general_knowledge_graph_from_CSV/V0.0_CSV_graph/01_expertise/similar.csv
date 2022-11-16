@@ -1,0 +1,4 @@
+node_name,name,connection_name,level,node_name2,name2
+sub_expertise,Hard CS Stuff like Algo Dev & Data Structures,similar,0.5,sub_expertise,AI & Data Science
+sub_expertise,UX/UI,similar,0.5,sub_expertise,Graphic Design
+sub_expertise,Web Development,similar,0.5,sub_expertise,App Development

@@ -23,9 +23,25 @@ let skill_list,skill_now,skills_temp,skills_temp_whiteListed,skill_whiteList_now
 //             ,"editing","video","video"
 //             ,"3d art","adobe stock"]
             
-skill_list = ["css","python","javascript","blockchain","react","html","software","development","web"
-            ,"editing","video","video"
-            ,"3d art","adobe stock"]
+// skill_list = ["css","python","javascript","blockchain","react","html","software","development","web"
+//             ,"editing","video","video"
+//             ,"3d art","adobe stock"]
+
+// skill_list = ["neo4j","graph","blockchain","node"]
+// skill_list = ["Java Language","Agile Product Development","Agile Product Management","Digital Product Management","Lifecycle Management","Platform Product Management","Product Lifecycle Management","Product Data Management"]
+// skill_list = ["Product Requirements Documents","Product Roadmap Management","Scrum Master","Requirements Specifications","User Story","Product Strategy","Product Roadmaps","Product Backlog Grooming","Business Analysis","Business Requirements","KPI Reporting"]
+// skill_list = ["Conflict Management","Cross-Functional Collaboration","Cross-Functional Coordination"]
+// skill_list = ["Data Acquisition","Data Classification","Data Curation"]
+// skill_list = ["Go (Programming Language)","Markup Languages","Program Flow","Swift (Programming Language)","UML Tool","Visual Programming Language (VPL)","CoffeeScript","ASP.NET Core","IOS Development","Objective-C (Programming Language)","watchOS"]
+// skill_list = ["Business Strategies","Corporate Strategy","Commercial Development","Customer Development","Digital Customer Strategy","Exit Strategies","Growth Planning","Growth Strategies","Organizational Strategy","Mission Statement Development","Small Business Development","Strategic Decision-Making","Strategic Leadership","Strategic Thinking","Value Creation"]
+// skill_list = ["A/B Testing","Google Analytics","User Tracking"]
+// skill_list = ["Cloud Security Applications","Data Security","Database Encryption","Digital Security","Ethical Hacking","Firewalld","Information Security Management","Internet Security"]
+// skill_list = [".NET Remoting","API Management","Amazon API Gateway","Application Programming Interface (API)","Dropbox API","Facebook API","Google App Engines","Graphics Device Interface","HTML Document Object Models","Java API For RESTful Web Services","OpenAPI","RESTful API","XML For Analysis","Social Media APIs"]
+// skill_list = ["Search Algorithms","Search Technologies","Search Engine Optimization","Oracle Learning Management","Oracle Audit Vault","Oracle Database Vault","Oracle Workflow"]
+// skill_list = ["Full Stack (Software Engineering)","Data Administration","Database Activity Monitoring","Database Activity Monitoring","Database Testing","AWS Backup","AWS CodeBuild","Amazon Cloud Drive","Amazon Web Services","Dataflow","Google Cloud","Twilio","Django (Web Framework)","Dynamic Websites","JSON Web Signature (JWS)","Wix","Web Development Tools","SASS"]
+// skill_list = ["Machine Learning","Machine Learning Algorithms","PyTorch (Machine Learning Library)","Recommendation Engine","Recurrent Neural Network (RNN)","Reinforcement Learning","Scikit-learn (Machine Learning Library)","Supervised Learning","TensorFlow","Training Datasets","Unsupervised Learning","Game Theory","Convolutional Neural Networks","Artificial Neural Networks","Chatbot","Gradient Boosting","Facial Recognition"]
+// skill_list = ["Java Platform Standard Edition (J2SE)","Java Portlet Specification","Java Runtime Environment","Java Scripting Languages","Java Virtual Machine (JVM)"]
+// skill_list=["Agile Coaching","Agile Modeling","Agile Project Management","Agile Software Development","Agile Testing","Disciplined Agile Delivery","Feature-Driven Development (FDD)","Sprint Backlogs","Story Point Estimation",]
 
 // skills_temp = await fetchSkills("blockchain")
 // console.log("skills_temp = " , skills_temp)
@@ -33,6 +49,7 @@ skill_list = ["css","python","javascript","blockchain","react","html","software"
 let notWhiteListedCateg = []
 let notWhiteListedSubCateg = []
 
+console.log("skill_list = " , skill_list)
 
 for (let i = 0; i < skill_list.length; i++) {
     skill_now = skill_list[i];
@@ -44,11 +61,12 @@ for (let i = 0; i < skill_list.length; i++) {
 
     let res = await notWhiteListedCategories(skills_temp)
 
-    if (res.notWhiteListedCateg && res.notWhiteListedCateg.length>0){
-        notWhiteListedCateg.push(res.notWhiteListedCateg[0])
+    if (res.notWhiteListedCateg ){
+        // console.log("change = " ,notWhiteListedCateg,res.notWhiteListedCateg[0])
+        notWhiteListedCateg.push(res.notWhiteListedCateg)
     }
-    if (res.notWhiteListedSubCateg && res.notWhiteListedSubCateg.length>0){
-        notWhiteListedSubCateg.push(res.notWhiteListedSubCateg[0])
+    if (res.notWhiteListedSubCateg ){
+        notWhiteListedSubCateg.push(res.notWhiteListedSubCateg)
     }
 
     // let notWhiteListedSubCateg = res.notWhiteListedSubCateg
