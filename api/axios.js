@@ -1,4 +1,6 @@
 import axios from "axios";
+import dotenv from "dotenv";
+dotenv.config();
 // require('dotenv').config();
 
 // const baseURL = process.env.REACT_APP_DOMAIN_NAME
@@ -6,8 +8,13 @@ import axios from "axios";
 //   : "http://localhost:5001/graphql";
 
 // const baseURL = process.env.NEXT_PUBLIC_GRAPHQL_URI;
- const baseURL = "https://oasis-bot-test-deploy.herokuapp.com/graphql"
+//  const baseURL = "https://oasis-bot-test-deploy.herokuapp.com/graphql"
+//  const baseURL = "http://localhost:5001/graphql"
 //  const baseURL = "https://rickandmortyapi.com/graphql"
+
+const baseURL = process.env.NEXT_PUBLIC_GRAPHQL_URI
+  ? process.env.REACT_APP_DOMAIN_NAME 
+  : "http://localhost:5001/graphql";
 
 const apiClient = axios.create({
   baseURL,

@@ -1,0 +1,4 @@
+node_name,name,connection_name,level,node_name2,name2
+sub_typeProject,Zk Blockchains,similar,0.5,sub_typeProject,Privacy
+sub_typeProject,Lending,similar,0.5,sub_typeProject,Decentralized Exchanges
+sub_typeProject,Quadratic Funding,similar,0.5,sub_typeProject,DAO Governance
