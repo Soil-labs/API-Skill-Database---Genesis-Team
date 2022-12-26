@@ -1,0 +1,163 @@
+node_name,name,connection_name,level,node_name2,name2
+sub_typeProject,Finance,similar,0.5,sub_typeProject,Authentication
+sub_typeProject,Finance,similar,0.5,sub_typeProject,Identity
+sub_typeProject,Finance,similar,0.5,sub_typeProject,Zk Blockchains
+sub_typeProject,Finance,similar,0.5,sub_typeProject,Decentralized Exchanges
+sub_typeProject,Finance,similar,0.5,sub_typeProject,Lending
+sub_typeProject,Finance,similar,0.5,sub_typeProject,Stablecoins
+sub_typeProject,Finance,similar,0.5,sub_typeProject,Vaults
+sub_typeProject,Finance,similar,0.5,sub_typeProject,Synthetic Assets
+sub_typeProject,Finance,similar,0.5,sub_typeProject,Derivatives
+sub_typeProject,Sybil resistance,similar,0.3,sub_typeProject,General DeFi Stuff
+sub_typeProject,Sybil resistance,similar,0.4,sub_typeProject,Privacy
+sub_typeProject,Sybil resistance,similar,0.5,sub_typeProject,Authentication
+sub_typeProject,Sybil resistance,similar,0.5,sub_typeProject,Identity
+sub_typeProject,Sybil resistance,similar,0.3,sub_typeProject,Zk Blockchains
+sub_typeProject,General ZK Stuff,similar,0.5,sub_typeProject,Finance
+sub_typeProject,General ZK Stuff,similar,0.5,sub_typeProject,Sybil resistance
+sub_typeProject,General ZK Stuff,similar,0.5,sub_typeProject,Privacy
+sub_typeProject,General ZK Stuff,similar,0.5,sub_typeProject,Data & ML
+sub_typeProject,General ZK Stuff,similar,0.5,sub_typeProject,Authentication
+sub_typeProject,General ZK Stuff,similar,0.5,sub_typeProject,Identity
+sub_typeProject,General ZK Stuff,similar,0.5,sub_typeProject,Zk Blockchains
+sub_typeProject,General ZK Stuff,similar,0.5,sub_typeProject,Combat Censorships
+sub_typeProject,Sybil resistance,similar,0.2,sub_typeProject,Membership passes
+sub_typeProject,Sybil resistance,similar,0.2,sub_typeProject,Proof of Ownership
+sub_typeProject,Privacy,similar,0.5,sub_typeProject,Zk Blockchains
+sub_typeProject,Privacy,similar,0.5,sub_typeProject,Authentication
+sub_typeProject,Privacy,similar,0.5,sub_typeProject,Identity
+sub_typeProject,Data & ML,similar,0.3,sub_typeProject,General DeFi Stuff
+sub_typeProject,Data & ML,similar,0.3,sub_typeProject,General DeSci stuff
+sub_typeProject,Authentication,similar,0.7,sub_typeProject,Identity
+sub_typeProject,Authentication,similar,0.5,sub_typeProject,Membership passes
+sub_typeProject,Identity,similar,0.6,sub_typeProject,PFP and Avatars
+sub_typeProject,Identity,similar,0.6,sub_typeProject,Verifiable Reputation
+sub_typeProject,Identity,similar,0.5,sub_typeProject,Community Building
+sub_typeProject,Identity,similar,0.5,sub_typeProject,Domain Names
+sub_typeProject,Zk Blockchains,similar,0.3,sub_typeProject,Verifiable Reputation
+sub_typeProject,Lending,similar,0.5,sub_typeProject,Stablecoins
+sub_typeProject,Lending,similar,0.5,sub_typeProject,Yield
+sub_typeProject,Lending,similar,0.5,sub_typeProject,Vaults
+sub_typeProject,Decentralized Exchanges,similar,0.5,sub_typeProject,Lending
+sub_typeProject,Decentralized Exchanges,similar,0.5,sub_typeProject,Stablecoins
+sub_typeProject,Decentralized Exchanges,similar,0.5,sub_typeProject,Synthetic Assets
+sub_typeProject,Decentralized Exchanges,similar,0.6,sub_typeProject,Indexes
+sub_typeProject,Decentralized Exchanges,similar,0.4,sub_typeProject,Derivatives
+sub_typeProject,Decentralized Exchanges,similar,0.4,sub_typeProject,Options
+sub_typeProject,General DeFi Stuff,similar,0.5,sub_typeProject,Decentralized Exchanges
+sub_typeProject,General DeFi Stuff,similar,0.5,sub_typeProject,Lending
+sub_typeProject,General DeFi Stuff,similar,0.5,sub_typeProject,Stablecoins
+sub_typeProject,General DeFi Stuff,similar,0.5,sub_typeProject,Yield
+sub_typeProject,General DeFi Stuff,similar,0.5,sub_typeProject,Vaults
+sub_typeProject,General DeFi Stuff,similar,0.5,sub_typeProject,Synthetic Assets
+sub_typeProject,General DeFi Stuff,similar,0.5,sub_typeProject,Indexes
+sub_typeProject,General DeFi Stuff,similar,0.5,sub_typeProject,Derivatives
+sub_typeProject,General DeFi Stuff,similar,0.5,sub_typeProject,Options
+sub_typeProject,General DeFi Stuff,similar,0.5,sub_typeProject,Launchpads
+sub_typeProject,Stablecoins,similar,0.6,sub_typeProject,Synthetic Assets
+sub_typeProject,Stablecoins,similar,0.7,sub_typeProject,Token Design
+sub_typeProject,Stablecoins,similar,0.5,sub_typeProject,Direct Funding
+sub_typeProject,Stablecoins,similar,0.5,sub_typeProject,Incentives
+sub_typeProject,Yield,similar,0.5,sub_typeProject,Direct Funding
+sub_typeProject,Yield,similar,0.6,sub_typeProject,Vaults
+sub_typeProject,Yield,similar,0.6,sub_typeProject,Synthetic Assets
+sub_typeProject,Yield,similar,0.6,sub_typeProject,Derivatives
+sub_typeProject,Yield,similar,0.6,sub_typeProject,Options
+sub_typeProject,Yield,similar,0.4,sub_typeProject,Quadratic Funding
+sub_typeProject,Synthetic Assets,similar,0.6,sub_typeProject,Incentives
+sub_typeProject,Synthetic Assets,similar,0.5,sub_typeProject,Token Design
+sub_typeProject,Synthetic Assets,similar,0.6,sub_typeProject,Options
+sub_typeProject,Synthetic Assets,similar,0.6,sub_typeProject,Derivatives
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Quadratic Funding
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Hypercerts
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Direct Funding
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,DAO Governance
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Conviction Voting
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Curation Markets
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Token Design
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Community Building
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Research Tokens
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Funding
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Combat Censorships
+sub_typeProject,General Public Goods Stuff,similar,0.5,sub_typeProject,Verifiable Reputation
+sub_typeProject,Quadratic Funding,similar,0.7,sub_typeProject,Funding
+sub_typeProject,Quadratic Funding,similar,0.5,sub_typeProject,Research Tokens
+sub_typeProject,Quadratic Funding,similar,0.6,sub_typeProject,Hypercerts
+sub_typeProject,Quadratic Funding,similar,0.5,sub_typeProject,Direct Funding
+sub_typeProject,Quadratic Funding,similar,0.7,sub_typeProject,DAO Governance
+sub_typeProject,Quadratic Funding,similar,0.5,sub_typeProject,Conviction Voting
+sub_typeProject,Hypercerts,similar,0.6,sub_typeProject,DAO Governance
+sub_typeProject,Hypercerts,similar,0.7,sub_typeProject,Community Building
+sub_typeProject,Hypercerts,similar,0.7,sub_typeProject,Biotech DAOs
+sub_typeProject,Hypercerts,similar,0.7,sub_typeProject,Science DAOs
+sub_typeProject,Hypercerts,similar,0.5,sub_typeProject,Environemntal DAOs
+sub_typeProject,Direct Funding,similar,0.5,sub_typeProject,Science DAOs
+sub_typeProject,Direct Funding,similar,0.7,sub_typeProject,Funding
+sub_typeProject,Direct Funding,similar,0.5,sub_typeProject,Access
+sub_typeProject,Direct Funding,similar,0.5,sub_typeProject,Incentives
+sub_typeProject,Direct Funding,similar,0.5,sub_typeProject,Biotech DAOs
+sub_typeProject,Direct Funding,similar,0.5,sub_typeProject,Environemntal DAOs
+sub_typeProject,Direct Funding,similar,0.5,sub_typeProject,Science DAOs
+sub_typeProject,DAO Governance,similar,0.7,sub_typeProject,Token Design
+sub_typeProject,DAO Governance,similar,0.7,sub_typeProject,Community Building
+sub_typeProject,DAO Governance,similar,0.5,sub_typeProject,Biotech DAOs
+sub_typeProject,DAO Governance,similar,0.5,sub_typeProject,Environemntal DAOs
+sub_typeProject,DAO Governance,similar,0.5,sub_typeProject,Science DAOs
+sub_typeProject,DAO Governance,similar,0.7,sub_typeProject,Membership passes
+sub_typeProject,Curation Markets,similar,0.5,sub_typeProject,Artwork
+sub_typeProject,Curation Markets,similar,0.5,sub_typeProject,Collectibles
+sub_typeProject,Curation Markets,similar,0.5,sub_typeProject,Photography NFTs
+sub_typeProject,Curation Markets,similar,0.5,sub_typeProject,Music NFTs
+sub_typeProject,Curation Markets,similar,0.4,sub_typeProject,Gamified NFT
+sub_typeProject,Token Design,similar,0.7,sub_typeProject,Incentives
+sub_typeProject,Token Design,similar,0.6,sub_typeProject,Research Tokens
+sub_typeProject,Token Design,similar,0.6,sub_typeProject,Community Building
+sub_typeProject,Community Building,similar,0.5,sub_typeProject,Biotech DAOs
+sub_typeProject,Community Building,similar,0.5,sub_typeProject,Environemntal DAOs
+sub_typeProject,Community Building,similar,0.5,sub_typeProject,Science DAOs
+sub_typeProject,Community Building,similar,0.5,sub_typeProject,PFP and Avatars
+sub_typeProject,Community Building,similar,0.5,sub_typeProject,Collectibles
+sub_typeProject,Community Building,similar,0.5,sub_typeProject,Photography NFTs
+sub_typeProject,Community Building,similar,0.5,sub_typeProject,Music NFTs
+sub_typeProject,Community Building,similar,0.5,sub_typeProject,Gamified NFT
+sub_typeProject,Community Building,similar,0.5,sub_typeProject,Membership passes
+sub_typeProject,Community Building,similar,0.5,sub_typeProject,General NFT stuff
+sub_typeProject,PFP and Avatars,similar,0.6,sub_typeProject,Artwork
+sub_typeProject,PFP and Avatars,similar,0.6,sub_typeProject,Generative Art
+sub_typeProject,PFP and Avatars,similar,0.5,sub_typeProject,Photography NFTs
+sub_typeProject,PFP and Avatars,similar,0.5,sub_typeProject,Proof of Ownership
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,PFP and Avatars
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,Artwork
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,Generative Art
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,Collectibles
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,Photography NFTs
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,Music NFTs
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,Gamified NFT
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,NFT event tickets
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,Membership passes
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,Domain Names
+sub_typeProject,General NFT stuff,similar,0.5,sub_typeProject,Proof of Ownership
+sub_typeProject,Artwork,similar,0.5,sub_typeProject,Generative Art
+sub_typeProject,Artwork,similar,0.5,sub_typeProject,Collectibles
+sub_typeProject,Artwork,similar,0.5,sub_typeProject,Photography NFTs
+sub_typeProject,Music NFTs,similar,0.5,sub_typeProject,Photography NFTs
+sub_typeProject,Music NFTs,similar,0.5,sub_typeProject,Gamified NFT
+sub_typeProject,Music NFTs,similar,0.5,sub_typeProject,NFT event tickets
+sub_typeProject,Proof of Ownership,similar,0.7,sub_typeProject,IP
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,Funding
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,Peer Review
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,Access
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,Incentives
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,Biotech DAOs
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,Environemntal DAOs
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,Science DAOs
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,Research Tokens
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,Combat Censorships
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,Verifiable Reputation
+sub_typeProject,General DeSci stuff,similar,0.5,sub_typeProject,IP
+sub_typeProject,IP,similar,0.5,sub_typeProject,Verifiable Reputation
+sub_typeProject,IP,similar,0.5,sub_typeProject,Peer Review
+sub_typeProject,Biotech DAOs,similar,0.7,sub_typeProject,Environemntal DAOs
+sub_typeProject,Biotech DAOs,similar,0.7,sub_typeProject,Science DAOs
+sub_typeProject,Environemntal DAOs,similar,0.7,sub_typeProject,Science DAOs
+sub_typeProject,Combat Censorships,similar,0.7,sub_typeProject,Access

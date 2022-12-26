@@ -14,11 +14,14 @@ console.log("We starting now " )
 
 let onlyCategory = false
 
-let arrayRecords = []
 
 
-let processFile = async () => { 
+let processFile = async (arrayRecords) => { 
   return new Promise((resolve, reject) => {
+
+    // let arrayRecords = []
+
+
     const path = './V0.0_CSV_graph/01_expertise/similar.csv';
     const stream = fs.createReadStream(path);
     const parser = parse();
@@ -40,67 +43,53 @@ let processFile = async () => {
 
     parser.on('readable', async function(){
       let record;
-      let everyCategoryDict = {}
-      let i=0
       while  (record = parser.read()) {
 
-        console.log("record = " , record)
 
-        arrayRecords.push(record)
-
-
-        // let similarData = await relatedNode_name(record["name"],record["name2"]);
-
-
-        // // everyCategoryDict =  addCategory_subCategory(key,value, node,everyCategoryDict)
-
-        // let nameData = await CreateNode(record["name"],record["node_name"],undefined);
-        // // console.log("nameData = " , nameData)
-
-
-        // let nameData2 = await CreateNode(record["name2"],record["node_name2"],undefined);
-        // // console.log("nameData2 = " , nameData2)
-
-
-        // // console.log("nameData._id,nameData2._id = " ,record["name"], nameData._id,record["name2"],nameData2._id)
-
-        // let similarData = relatedNode(nameData._id,nameData2._id);
-
-        // console.log("similarData = " , similarData)
         
-        i = i + 1
+        arrayRecords.push(record)
+        // console.log("record = " , arrayRecords,record)
+
 
       }
       return (record)
     });
 
+    console.log("arrayRecords = " , arrayRecords)
+
+    return (arrayRecords)
     
-  });
+  }).then((arrayRecords) => {
+    console.log("arrayRecords = " , arrayRecords)
+    return arrayRecords
+  })
+
+  
  }
 
 
- let res = await processFile();
+ let arrayRecords2 = await processFile([]);
 
- console.log("arrayRecords = " , arrayRecords)
+ console.log("arrayRecords2 = " , arrayRecords2)
 
 
 
- function doSetTimeout(i) {
-  setTimeout(function() { 
+//  function doSetTimeout(i) {
+//   setTimeout(function() { 
     
     
-    let record = arrayRecords[i-1] 
+//     let record = arrayRecords[i-1] 
 
     
-    console.log("change = ",i-1,record ) 
+//     console.log("change = ",i-1,record ) 
 
-    let similarData = relatedNode_name(record["name"],record["name2"]);
+//     let similarData = relatedNode_name(record["name"],record["name2"]);
   
-  }, 3000*i);
-}
+//   }, 3000*i);
+// }
 
-for (var i = 1; i <= arrayRecords.length; ++i)
-  doSetTimeout(i);
+// for (var i = 1; i <= arrayRecords.length; ++i)
+//   doSetTimeout(i);
 
 
 
