@@ -1,0 +1,80 @@
+node_name,name,connection_name,level,node_name2,name2
+sub_expertise,UX/UI,similar,0.5,sub_expertise,Graphic Design
+sub_expertise,UX/UI,similar,0.8,sub_expertise,General PM Support building your product from A-Z
+sub_expertise,Web Development,similar,0.5,sub_expertise,App Development
+sub_expertise,Hard CS Stuff like Algo Dev & Data Structures,similar,0.5,sub_expertise,AI & Data Science
+sub_expertise,UX/UI,similar,0.4,sub_expertise,General Design support from A-Z
+sub_expertise,UX/UI,similar,0.6,sub_expertise,Interviews
+sub_expertise,UX/UI,similar,0.7,sub_expertise,Ideation
+sub_expertise,UX/UI,similar,0.8,sub_expertise,Design Team Coordination
+sub_expertise,UX/UI,similar,0.5,sub_expertise,Brand Design
+sub_expertise,UX/UI,similar,0.7,sub_expertise,Style Guides
+sub_expertise,UX/UI,similar,0.5,sub_expertise,UI Implementation
+sub_expertise,UX/UI,similar,0.4,sub_expertise,User Research
+sub_expertise,UX/UI,similar,0.3,sub_expertise,General Frontend Support
+sub_expertise,Web Design,similar,0.7,sub_expertise,Graphic Design
+sub_expertise,Web Design,similar,0.6,sub_expertise,Web Development
+sub_expertise,Web Design,similar,0.5,sub_expertise,Graphic Design
+sub_expertise,Graphic Design,similar,0.5,sub_expertise,Game Design
+sub_expertise,Graphic Design,similar,0.7,sub_expertise,NFT Design
+sub_expertise,Graphic Design,similar,0.5,sub_expertise,Brand Design
+sub_expertise,Graphic Design,similar,0.5,sub_expertise,Style Guides
+sub_expertise,Graphic Design,similar,0.2,sub_expertise,UI Implementation
+sub_expertise,Graphic Design,similar,0.4,sub_expertise,Design Team Coordination
+sub_expertise,Game Design,similar,0.6,sub_expertise,Animation
+sub_expertise,General Design support from A-Z,similar,0.5,sub_expertise,Web Design
+sub_expertise,General Design support from A-Z,similar,0.5,sub_expertise,Graphic Design
+sub_expertise,General Design support from A-Z,similar,0.5,sub_expertise,Game Design
+sub_expertise,General Design support from A-Z,similar,0.5,sub_expertise,Animation
+sub_expertise,General Design support from A-Z,similar,0.5,sub_expertise,NFT Design
+sub_expertise,General Design support from A-Z,similar,0.5,sub_expertise,Brand Design
+sub_expertise,General Design support from A-Z,similar,0.5,sub_expertise,Style Guides
+sub_expertise,General Frontend Support,similar,0.5,sub_expertise,UI Implementation
+sub_expertise,General Frontend Support,similar,0.5,sub_expertise,Frontend Architecture
+sub_expertise,General Frontend Support,similar,0.5,sub_expertise,Web Development
+sub_expertise,General Frontend Support,similar,0.5,sub_expertise,App Development
+sub_expertise,UI Implementation,similar,0.5,sub_expertise,Frontend Architecture
+sub_expertise,Web Development,similar,0.4,sub_expertise,UI Implementation
+sub_expertise,App Development,similar,0.6,sub_expertise,Architecture of your app
+sub_expertise,Web Development,similar,0.6,sub_expertise,Architecture of your app
+sub_expertise,UI Implementation,similar,0.5,sub_expertise,Design Team Coordination
+sub_expertise,Web Development,similar,0.5,sub_expertise,Technical Team Coordination
+sub_expertise,App Development,similar,0.5,sub_expertise,Technical Team Coordination
+sub_expertise,General Frontend Support,similar,0.5,sub_expertise,Technical Team Coordination
+sub_expertise,Frontend Architecture,similar,0.5,sub_expertise,Technical Team Coordination
+sub_expertise,General Frontend Support,similar,0.4,sub_expertise,General PM Support building your product from A-Z
+sub_expertise,General Design support from A-Z,similar,0.4,sub_expertise,General PM Support building your product from A-Z
+sub_expertise,General Backend Stuff,similar,0.5,sub_expertise,AI & Data Science
+sub_expertise,General Backend Stuff,similar,0.5,sub_expertise,Architecture of your app
+sub_expertise,General Backend Stuff,similar,0.5,sub_expertise,Hard CS Stuff like Algo Dev & Data Structures
+sub_expertise,General Backend Stuff,similar,0.5,sub_expertise,Blockchain & Smart Contract Stuff
+sub_expertise,AI & Data Science,similar,0.4,sub_expertise,Technical Team Coordination
+sub_expertise,AI & Data Science,similar,0.2,sub_expertise,General PM Support building your product from A-Z
+sub_expertise,Architecture of your app,similar,0.6,sub_expertise,Technical Team Coordination
+sub_expertise,Architecture of your app,similar,0.2,sub_expertise,General PM Support building your product from A-Z
+sub_expertise,Architecture of your app,similar,0.5,sub_expertise,Frontend Architecture
+sub_expertise,Hard CS Stuff like Algo Dev & Data Structures,similar,0.3,sub_expertise,General Blockchain Support
+sub_expertise,Hard CS Stuff like Algo Dev & Data Structures,similar,0.4,sub_expertise,AI & Data Science
+sub_expertise,Hard CS Stuff like Algo Dev & Data Structures,similar,0.4,sub_expertise,Blockchain & Smart Contract Stuff
+sub_expertise,Blockchain & Smart Contract Stuff,similar,0.5,sub_expertise,General Blockchain Support
+sub_expertise,Technical Team Coordination,similar,0.2,sub_expertise,General Frontend Support
+sub_expertise,Technical Team Coordination,similar,0.2,sub_expertise,General Backend Stuff
+sub_expertise,Technical Team Coordination,similar,0.2,sub_expertise,General PM Support building your product from A-Z
+sub_expertise,Technical Team Coordination,similar,0.2,sub_expertise,General Blockchain Support
+sub_expertise,User Research,similar,0.7,sub_expertise,Market Research
+sub_expertise,User Research,similar,0.4,sub_expertise,Ideation
+sub_expertise,User Research,similar,0.7,sub_expertise,Interviews
+sub_expertise,General PM Support building your product from A-Z,similar,0.5,sub_expertise,Technical Team Coordination
+sub_expertise,General PM Support building your product from A-Z,similar,0.5,sub_expertise,User Research
+sub_expertise,General PM Support building your product from A-Z,similar,0.5,sub_expertise,Market Research
+sub_expertise,General PM Support building your product from A-Z,similar,0.5,sub_expertise,Design Team Coordination
+sub_expertise,General PM Support building your product from A-Z,similar,0.5,sub_expertise,Ideation
+sub_expertise,General PM Support building your product from A-Z,similar,0.5,sub_expertise,Interviews
+sub_expertise,General PM Support building your product from A-Z,similar,0.5,sub_expertise,UX/UI
+sub_expertise,Design Team Coordination,similar,0.5,sub_expertise,General Design support from A-Z
+sub_expertise,General Blockchain Support,similar,0.5,sub_expertise,Blockchain Architecture & Design
+sub_expertise,General Blockchain Support,similar,0.5,sub_expertise,Smart Contract Development
+sub_expertise,General Blockchain Support,similar,0.5,sub_expertise,Smart Contract Auditing
+sub_expertise,Smart Contract Development,similar,0.8,sub_expertise,Smart Contract Auditing
+sub_expertise,General Blockchain Support,similar,0.5,sub_expertise,Hard CS Stuff like Algo Dev & Data Structures
+sub_expertise,General Backend Stuff,similar,0.5,sub_expertise,General Blockchain Support
