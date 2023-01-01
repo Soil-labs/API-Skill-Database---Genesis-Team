@@ -146,11 +146,22 @@ async function createRelationshipFromRecord(
   setTimeout(function () {
     let record = nodeArray[i - 1];
 
-    let similarData = relatedNode_name(
-      record["name"],
-      record["name2"],
-      record["level"]
-    );
+    // relatedNode_name(
+    //   record["name"],
+    //   record["name2"],
+    //   record["level"],
+    //   record["connection_name"]
+    // );
+    if (true) {
+      // if (record["direction"]!="d"){ // it is bidirectional
+      // it is bidirectional
+      relatedNode_name(
+        record["name2"],
+        record["name"],
+        record["level"],
+        record["connection_name"]
+      );
+    }
   }, 1000 * i);
 }
 
