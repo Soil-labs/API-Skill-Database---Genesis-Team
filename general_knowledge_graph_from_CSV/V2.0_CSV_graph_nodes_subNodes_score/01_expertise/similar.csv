@@ -1,0 +1,107 @@
+node_name,name,connection_name,level,node_name2,name2,direction
+sub_expertise,UX/UI,related,0.5,sub_expertise,Graphic Design
+sub_expertise,UX/UI,related,0.2,sub_expertise,General PM Support
+sub_expertise,Web Development,related,0.5,sub_expertise,App Development
+sub_expertise,UX/UI,related,0.4,sub_expertise,General Design support from A-Z
+sub_expertise,UX/UI,related,0.3,sub_expertise,Interviews
+sub_expertise,UX/UI,related,0.7,sub_expertise,Ideation
+sub_expertise,UX/UI,related,0.3,sub_expertise,Design Team Coordination
+sub_expertise,UX/UI,related,0.5,sub_expertise,Brand Design
+sub_expertise,UX/UI,related,0.7,sub_expertise,Style Guides
+sub_expertise,UX/UI,related,0.5,sub_expertise,UI Implementation
+sub_expertise,UX/UI,related,0.4,sub_expertise,User Research
+sub_expertise,UX/UI,related,0.3,sub_expertise,General Frontend Support
+sub_expertise,Web Design,related,0.7,sub_expertise,Graphic Design
+sub_expertise,Web Design,related,0.6,sub_expertise,Web Development
+sub_expertise,Web Design,related,0.5,sub_expertise,Graphic Design
+sub_expertise,Graphic Design,related,0.5,sub_expertise,Game Design
+sub_expertise,Graphic Design,related,0.3,sub_expertise,NFT Design
+sub_expertise,Graphic Design,related,0.5,sub_expertise,Brand Design
+sub_expertise,Graphic Design,related,0.5,sub_expertise,Style Guides
+sub_expertise,Graphic Design,related,0.2,sub_expertise,UI Implementation
+sub_expertise,Graphic Design,related,0.4,sub_expertise,Design Team Coordination
+sub_expertise,Game Design,related,0.6,sub_expertise,Animation
+sub_expertise,General Design support from A-Z,related,0.5,sub_expertise,Web Design
+sub_expertise,General Design support from A-Z,related,0.5,sub_expertise,Graphic Design
+sub_expertise,General Design support from A-Z,related,0.5,sub_expertise,Game Design
+sub_expertise,General Design support from A-Z,related,0.5,sub_expertise,Animation
+sub_expertise,General Design support from A-Z,related,0.5,sub_expertise,NFT Design
+sub_expertise,General Design support from A-Z,related,0.5,sub_expertise,Brand Design
+sub_expertise,General Design support from A-Z,related,0.5,sub_expertise,Style Guides
+sub_expertise,General Frontend Support,related,0.5,sub_expertise,UI Implementation
+sub_expertise,General Frontend Support,related,0.5,sub_expertise,Frontend Architecture
+sub_expertise,General Frontend Support,related,0.5,sub_expertise,Web Development
+sub_expertise,General Frontend Support,related,0.5,sub_expertise,App Development
+sub_expertise,UI Implementation,related,0.5,sub_expertise,Frontend Architecture
+sub_expertise,Web Development,related,0.4,sub_expertise,UI Implementation
+sub_expertise,App Development,related,0.3,sub_expertise,Architecture of your app
+sub_expertise,Web Development,related,0.6,sub_expertise,Architecture of your app
+sub_expertise,UI Implementation,related,0.5,sub_expertise,Design Team Coordination
+sub_expertise,Web Development,related,0.5,sub_expertise,Technical Team Coordination
+sub_expertise,App Development,related,0.5,sub_expertise,Technical Team Coordination
+sub_expertise,General Frontend Support,related,0.5,sub_expertise,Technical Team Coordination
+sub_expertise,Frontend Architecture,related,0.5,sub_expertise,Technical Team Coordination
+sub_expertise,General Frontend Support,related,0.4,sub_expertise,General PM Support
+sub_expertise,General Design support from A-Z,related,0.4,sub_expertise,General PM Support
+sub_expertise,General Backend Stuff,related,0.5,sub_expertise,Architecture of your app
+sub_expertise,General Backend Stuff,related,0.5,sub_expertise,Hard CS Stuff like Algo Dev & Data Structures
+sub_expertise,Architecture of your app,related,0.6,sub_expertise,Technical Team Coordination
+sub_expertise,Architecture of your app,related,0.2,sub_expertise,General PM Support
+sub_expertise,Architecture of your app,related,0.5,sub_expertise,Frontend Architecture
+sub_expertise,Hard CS Stuff like Algo Dev & Data Structures,related,0.3,sub_expertise,General Blockchain Support
+sub_expertise,Technical Team Coordination,related,0.2,sub_expertise,General Frontend Support
+sub_expertise,Technical Team Coordination,related,0.2,sub_expertise,General Backend Stuff
+sub_expertise,Technical Team Coordination,related,0.2,sub_expertise,General PM Support
+sub_expertise,Technical Team Coordination,related,0.2,sub_expertise,General Blockchain Support
+sub_expertise,User Research,related,0.7,sub_expertise,Market Research
+sub_expertise,User Research,related,0.4,sub_expertise,Ideation
+sub_expertise,User Research,related,0.7,sub_expertise,Interviews
+sub_expertise,General PM Support,related,0.5,sub_expertise,Technical Team Coordination
+sub_expertise,General PM Support,related,0.5,sub_expertise,User Research
+sub_expertise,General PM Support,related,0.5,sub_expertise,Market Research
+sub_expertise,General PM Support,related,0.5,sub_expertise,Design Team Coordination
+sub_expertise,General PM Support,related,0.5,sub_expertise,Ideation
+sub_expertise,General PM Support,related,0.5,sub_expertise,Interviews
+sub_expertise,General PM Support,related,0.5,sub_expertise,UX/UI
+sub_expertise,Design Team Coordination,related,0.5,sub_expertise,General Design support from A-Z
+sub_expertise,General Blockchain Support,related,0.5,sub_expertise,Blockchain Architecture & Design
+sub_expertise,General Blockchain Support,related,0.5,sub_expertise,Smart Contract Development
+sub_expertise,General Blockchain Support,related,0.5,sub_expertise,Smart Contract Auditing
+sub_expertise,Smart Contract Development,related,0.7,sub_expertise,Smart Contract Auditing
+sub_expertise,General Blockchain Support,related,0.5,sub_expertise,Hard CS Stuff like Algo Dev & Data Structures
+sub_expertise,General Backend Stuff,related,0.5,sub_expertise,General Blockchain Support
+expertise,Design,sub_expertise,0.8,sub_expertise,UX/UI
+expertise,Design,sub_expertise,0.9,sub_expertise,Graphic Design
+expertise,Design,sub_expertise,0.9,sub_expertise,Web Design
+expertise,Design,sub_expertise,0.3,sub_expertise,Game Design
+expertise,Design,sub_expertise,0.2,sub_expertise,Animation
+expertise,Design,sub_expertise,0.8,sub_expertise,General Design support from A-Z
+expertise,Design,sub_expertise,0.3,sub_expertise,NFT Design
+expertise,Design,sub_expertise,0.5,sub_expertise,Brand Design
+expertise,Frontend Developer,sub_expertise,0.9,sub_expertise,UI Implementation
+expertise,Frontend Developer,sub_expertise,0.6,sub_expertise,Frontend Architecture
+expertise,Frontend Developer,sub_expertise,0.7,sub_expertise,General Frontend Support
+expertise,Frontend Developer,sub_expertise,0.8,sub_expertise,Web Development
+expertise,Frontend Developer,sub_expertise,0.3,sub_expertise,App Development
+expertise,Backend Developer,sub_expertise,0.6,sub_expertise,Architecture of your app
+expertise,Backend Developer,sub_expertise,0.3,sub_expertise,Hard CS Stuff like Algo Dev & Data Structures
+expertise,Backend Developer,sub_expertise,0.6,sub_expertise,General Backend Stuff
+expertise,Product Manager,sub_expertise,0.7,sub_expertise,User Research
+expertise,Product Manager,sub_expertise,0.8,sub_expertise,Market Research
+expertise,Product Manager,sub_expertise,0.3,sub_expertise,Technical Team Coordination
+expertise,Product Manager,sub_expertise,0.3,sub_expertise,Design Team Coordination
+expertise,Product Manager,sub_expertise,0.7,sub_expertise,Ideation
+expertise,Product Manager,sub_expertise,0.7,sub_expertise,Interviews
+expertise,Product Manager,sub_expertise,0.7,sub_expertise,General PM Support
+expertise,Blockchain Developer,sub_expertise,0.9,sub_expertise,Smart Contract Development
+expertise,Blockchain Developer,sub_expertise,0.4,sub_expertise,Smart Contract Auditing
+expertise,Blockchain Developer,sub_expertise,0.6,sub_expertise,Blockchain Architecture & Design
+expertise,Blockchain Developer,sub_expertise,0.2,sub_expertise,Lead a Technical Team
+expertise,Blockchain Developer,sub_expertise,0.5,sub_expertise,General Blockchain Support
+expertise,AI & Data Science,sub_expertise,0.8,sub_expertise,Machine learning
+expertise,AI & Data Science,sub_expertise,0.5,sub_expertise,Natural language processing (NLP)
+expertise,AI & Data Science,sub_expertise,0.4,sub_expertise,Computer vision
+expertise,AI & Data Science,sub_expertise,0.3,sub_expertise,Robotics
+expertise,AI & Data Science,sub_expertise,0.6,sub_expertise,Deep learning
+expertise,AI & Data Science,sub_expertise,0.2,sub_expertise,Data mining
+expertise,AI & Data Science,sub_expertise,0.6,sub_expertise,Neural networks
